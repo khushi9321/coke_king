@@ -1,0 +1,87 @@
+/* Main container for signup page */
+.signin-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    padding: 0 20px;
+    font-family: 'Arial', sans-serif;
+    flex-direction: column; /* Center everything vertically */
+    background: url('https://imgs.search.brave.com/8rLuTGdPC6FizcerRYtL2lbri_tw6cazLJiJ0W7XEng/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9j/b3NtZXRpY3MtY29t/cG9zaXRpb24td2l0/aC1zZXJ1bS1ib3R0/bGVzXzIzLTIxNDg1/NDkxMTkuanBnP3Nl/bXQ9YWlzX2h5YnJp/ZA');
+  }
+  
+  /* Form container */
+  .signin-page form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Stack the form elements */
+  }
+  
+  /* Heading style */
+  .signin-page h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    align-self: center;
+  }
+  
+  /* Label style */
+  .signin-page label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  /* Input field style */
+  .signin-page input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  /* Focused input field */
+  .signin-page input:focus {
+    border-color: #4caf50;
+    outline: none;
+  }
+  
+  /* Submit button style */
+  .signin-page button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the button */
+  .signin-page button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 500px) {
+    .signin-page form {
+      padding: 20px;
+      width: 100%;
+    }
+  }
+  
