@@ -1,0 +1,111 @@
+/* Full-screen background with gradient */
+.login-container {
+  background: url('https://imgs.search.brave.com/8rLuTGdPC6FizcerRYtL2lbri_tw6cazLJiJ0W7XEng/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9j/b3NtZXRpY3MtY29t/cG9zaXRpb24td2l0/aC1zZXJ1bS1ib3R0/bGVzXzIzLTIxNDg1/NDkxMTkuanBnP3Nl/bXQ9YWlzX2h5YnJp/ZA');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Gradient overlay for background */
+.login-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)); /* Dark gradient for better contrast */
+  z-index: -1;
+}
+
+/* Modern login form */
+.login-form {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+  padding: 50px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.login-form:hover {
+  transform: translateY(-10px); /* Subtle hover effect for the form */
+}
+
+/* Heading style */
+.login-form h2 {
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Input styling */
+.login-form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 1.1rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.login-form input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  transform: scale(1.02);
+}
+
+/* Button styling */
+.login-form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 123, 255, 0.3);
+}
+
+/* Forgot password link styling */
+.login-form .link {
+  margin-top: 15px;
+  color: #007bff;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.login-form .link:hover {
+  color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .login-form {
+    padding: 40px 30px;
+    width: 90%;
+  }
+
+  .login-form h2 {
+    font-size: 1.8rem;
+  }
+}
