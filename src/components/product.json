@@ -1,0 +1,110 @@
+[
+   {
+      "_id":"1",
+      "name":"Acne face wash",
+      "description":"Removes dirt, oil, sweat, and makeup from the skin, which can contribute to clogged pores and acne.",
+      "price":"299",
+      "skinType":"oily",
+      "skinIssue":"acne",
+      "imageUrl":"https://plumgoodness.com/cdn/shop/files/001_40e83329-01c8-4855-9a1b-9f7775ea8029.jpg?v=1731995186&width=900"
+   },
+   {
+      "_id":"2",
+      "name":"Cerave cleanser",
+      "description":"Developed with dermatologists, CeraVe Hydrating Facial Cleanser is a gentle face wash with ingredients like ceramides and hyaluronic acid that work to restore the skins natural barrier to help the skin lock in moisture.",
+      "price":"499",
+      "skinType":"dry",
+      "skinIssue":"pimples",
+      "imageUrl":"https://plumgoodness.com/cdn/shop/files/001_40e83329-01c8-4855-9a1b-9f7775ea8029.jpg?v=1731995186&width=900"
+   },
+   {
+      "_id":"3",
+      "name":"Acne face wash",
+      "description":"Removes dirt, oil, sweat, and makeup from the skin, which can contribute to clogged pores and acne.",
+      "price":"299",
+      "skinType":"combination",
+      "skinIssue":"acne",
+      "imageUrl":"https://www.novology.com/cdn/shop/files/Sensitiveskinregimecopy.webp?v=1736913492"
+   },
+   {
+      "_id":"4",
+      "name":"Cerave cleanser",
+      "description":"Developed with dermatologists, CeraVe Hydrating Facial Cleanser is a gentle face wash with ingredients like ceramides and hyaluronic acid that work to restore the skins natural barrier to help the skin lock in moisture.",
+      "price":"499",
+      "skinType":"oily",
+      "skinIssue":"pimples",
+      "imageUrl":"https://sfycdn.speedsize.com/56385b25-4e17-4a9a-9bec-c421c18686fb/beminimalist.co/cdn/shop/files/OilySkinListing.png?crop=center&height=1260&v=1721222828&width=840"
+   },
+   {
+      "_id":"5",
+      "name":"Acne face wash",
+      "description":"Removes dirt, oil, sweat, and makeup from the skin, which can contribute to clogged pores and acne.",
+      "price":"299",
+      "skinType":"oily",
+      "skinIssue":"acne",
+      "imageUrl":"https://plumgoodness.com/cdn/shop/files/001_40e83329-01c8-4855-9a1b-9f7775ea8029.jpg?v=1731995186&width=900"
+   },
+   {
+      "_id":"6",
+      "name":"Cerave cleanser",
+      "description":"Developed with dermatologists, CeraVe Hydrating Facial Cleanser is a gentle face wash with ingredients like ceramides and hyaluronic acid that work to restore the skins natural barrier to help the skin lock in moisture.",
+      "price":"499",
+      "skinType":"oily",
+      "skinIssue":"pimples",
+      "imageUrl":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRAEejdQdIw1q49fvQiKPVu7qUOaiGVYTyYtfgAWyw0JjnPfzJ3CdY7rBokFnjcccG7GKmoBPAWNDnhCb069pNCthbtTj9J-3XyLTC-ZntbM_7lS5a8mMbgBno"
+   },
+   {
+      "_id":"7",
+      "name":"Acne face wash",
+      "description":"Removes dirt, oil, sweat, and makeup from the skin, which can contribute to clogged pores and acne.",
+      "price":"299",
+      "skinType":"oily",
+      "skinIssue":"acne",
+      "imageUrl":"https://sfycdn.speedsize.com/56385b25-4e17-4a9a-9bec-c421c18686fb/beminimalist.co/cdn/shop/files/OilySkinListing.png?crop=center&height=1260&v=1721222828&width=840"
+   },
+   {
+      "_id":"8",
+      "name":"Cerave cleanser",
+      "description":"Developed with dermatologists, CeraVe Hydrating Facial Cleanser is a gentle face wash with ingredients like ceramides and hyaluronic acid that work to restore the skins natural barrier to help the skin lock in moisture.",
+      "price":"499",
+      "skinType":"sensitive",
+      "skinIssue":"pimples",
+      "imageUrl":"https://plumgoodness.com/cdn/shop/files/001_40e83329-01c8-4855-9a1b-9f7775ea8029.jpg?v=1731995186&width=900"
+   },
+   {
+      "_id":"9",
+      "name":"Acne face wash",
+      "description":"Removes dirt, oil, sweat, and makeup from the skin, which can contribute to clogged pores and acne.",
+      "price":"299",
+      "skinType":"sensitive",
+      "skinIssue":"acne",
+      "imageUrl":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRAEejdQdIw1q49fvQiKPVu7qUOaiGVYTyYtfgAWyw0JjnPfzJ3CdY7rBokFnjcccG7GKmoBPAWNDnhCb069pNCthbtTj9J-3XyLTC-ZntbM_7lS5a8mMbgBno"
+   },
+   {
+      "_id":"10",
+      "name":"Cerave cleanser",
+      "description":"Developed with dermatologists, CeraVe Hydrating Facial Cleanser is a gentle face wash with ingredients like ceramides and hyaluronic acid that work to restore the skins natural barrier to help the skin lock in moisture.",
+      "price":"499",
+      "skinType":"sensitive",
+      "skinIssue":"pimples",
+      "imageUrl":"https://www.novology.com/cdn/shop/files/Sensitiveskinregimecopy.webp?v=1736913492"
+   },
+   {
+      "_id":"11",
+      "name":"Acne face wash",
+      "description":"Removes dirt, oil, sweat, and makeup from the skin, which can contribute to clogged pores and acne.",
+      "price":"299",
+      "skinType":"combination",
+      "skinIssue":"acne",
+      "imageUrl":"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRAEejdQdIw1q49fvQiKPVu7qUOaiGVYTyYtfgAWyw0JjnPfzJ3CdY7rBokFnjcccG7GKmoBPAWNDnhCb069pNCthbtTj9J-3XyLTC-ZntbM_7lS5a8mMbgBno"
+   },
+   {
+      "_id":"12",
+      "name":"Cerave cleanser",
+      "description":"Developed with dermatologists, CeraVe Hydrating Facial Cleanser is a gentle face wash with ingredients like ceramides and hyaluronic acid that work to restore the skins natural barrier to help the skin lock in moisture.",
+      "price":"499",
+      "skinType":"dry",
+      "skinIssue":"pimples",
+      "imageUrl":"https://www.novology.com/cdn/shop/files/Sensitiveskinregimecopy.webp?v=1736913492"
+   }
+]
